@@ -51,6 +51,6 @@ r=1'b0;
 #10 $finish;
  
 end
-always #8 clk <= ~clk;
+always #8 clk = ~clk;
  
 endmodule
